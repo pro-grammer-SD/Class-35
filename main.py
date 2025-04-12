@@ -37,7 +37,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill((20, 20, 20))
+    screen.fill((30,100,200))
     balls.update()
     balls.draw(screen)
     pygame.display.flip()
